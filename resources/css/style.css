@@ -1,18 +1,40 @@
-h1 {
+h1, h2 {
   font-family: Verdana;
-  font-weight: normal;
-  font-size: 50px;
   color: white;
-  display: block;
+  text-align: center;
 }
 
-p .download{
-  font-family: inherit;
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+}
+
+h2 {
+ font-weight: 300;
+ font-size: 42px;
+}
+
+p{
+  font-family: Verdana;
+  font-size: 21px;
+  text-align: center;
+  color: gray;
+}
+
+.download {
   color: Aquamarine;
   font-size: 16px;
 }
 
-background {
-  background: black
-  
+body {
+  background-color: black
+}
+
+.copyright {
+  text-align: right;
+}
+
+video {
+  margin: auto;
+  display: block;
 }
